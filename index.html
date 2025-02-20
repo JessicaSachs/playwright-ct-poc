@@ -13,7 +13,13 @@
     <h1>Component Playground</h1>
     <div id="test-container"></div>
   </div>
-  <script type="module" src="/src/main.js"></script>
+  <script>
+    function mount(element) {
+      const container = document.getElementById("test-container");
+      container.innerHTML = "";
+      container.appendChild(element);
+    }
+  </script>
 </body>
 
 </html>
