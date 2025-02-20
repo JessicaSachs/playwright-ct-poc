@@ -1,0 +1,19 @@
+/** User-space styles */
+.counter {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  padding: 1rem;
+}
+
+.count {
+  font-size: 1.5rem;
+  min-width: 2rem;
+  text-align: center;
+}
+
+button {
+  padding: 0.5rem 1rem;
+  font-size: 1.2rem;
+  cursor: pointer;
+} 
